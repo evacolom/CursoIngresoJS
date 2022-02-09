@@ -1,6 +1,10 @@
+/*
+Ejercicio dos IF
+Eva Colom */
+
+
 function mostrar()
 {
-	
          let edad;
 
      edad = parseInt(document.getElementById("txtIdEdad").value);
