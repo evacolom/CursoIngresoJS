@@ -1,18 +1,18 @@
 /*
 Eva Colom
-Ejercicio 10*/
+Ejercicio 10 bis1*/
 function mostrarAumento()
 {
-	let importe;
-	let descuento;
-	let resultado;
+	 let importe;
+	 let porcentaje;
+	 let resultado;
 
  importe = parseInt(document.getElementById("txtIdImporte").value);
 
- descuento = importe * 25 / 100;
- 
- resultado = importe - descuento;
+ porcentaje = prompt("Ingrese un porcentaje de descuento");
+ resultado = (importe * porcentaje) / 100;
 
  document.getElementById("txtIdResultado").value = resultado;
+
 
 }
