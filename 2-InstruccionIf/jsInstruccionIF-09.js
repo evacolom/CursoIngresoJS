@@ -1,6 +1,15 @@
+/* Eva Colom
+Ejercicio 9 */
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	
+	let numero;
+	let numeromaximo = 10;
+	let numerominimo = 1;
 
-}//FIN DE LA FUNCIÓN
+         numero = Math.round(Math.random() * (numeromaximo - numerominimo) + minimo);
+
+         alert(numero);
+	
+}
