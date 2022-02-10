@@ -11,5 +11,4 @@ function mostrar()
          numero = Math.round(Math.random() * (numeromaximo - numerominimo) + minimo);
 
          alert(numero);
-	
 }

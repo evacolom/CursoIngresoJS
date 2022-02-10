@@ -1,5 +1,5 @@
 /* Eva Colom
-TP 2
+TP 2 Corrección
 
 2.	Para el departamento de Construcción:
 A.	 mostrar la cantidad de alambre a comprar  si se ingresara el largo y el ancho de un terreno rectangular y se debe alambra con tres hilos de alambre.
@@ -58,7 +58,7 @@ function Materiales ()
 
         area = largo * ancho;
         cemento = area * 2;
-        cal = area * 2;
+        cal = area * 3;
 
-    alert("Un contrapiso de " + area + " m2 debo comprar " + cemento + " bolsas de cemento y " + cal + " de cal");
+    alert("Para un contrapiso de " + area + " m2 debe comprar " + cemento + " bolsas de cemento y " + cal + " de cal");
 }
