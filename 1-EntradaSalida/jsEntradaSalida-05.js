@@ -18,8 +18,6 @@ let edad;
 let apellido;
      apellido = prompt("Ingrese su apellido");
 
-
-
 nombreyedad= apellido + (", usted se llama ") + nombre + (" y tiene " ) + edad + (" años");
 alert(nombreyedad);
 }
