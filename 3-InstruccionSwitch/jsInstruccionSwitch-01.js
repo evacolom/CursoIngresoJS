@@ -1,9 +1,23 @@
+/* Eva Colom
+Ejercicio Switch 1 */
+
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+	let mes = document.getElementById("txtIdMes").value;
 
+	 switch(mes){
+	   case "Enero":
+	 alert("Que comiences bien el año!!");
+       break; 
+	   case "Marzo":
+	 alert("Comienzan las clases!!");
+	   break;
+	   case "Julio":
+     alert("Se vienen las vacaciones!!");
+	   break;
+	   case "Diciembre":
+     alert("Felices fiestas!!");
+	 break;
+	}
 
-
-}//FIN DE LA FUNCIÓN
+}
