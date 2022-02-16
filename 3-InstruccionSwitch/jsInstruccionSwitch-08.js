@@ -1,6 +1,18 @@
+/* Eva Colom
+Ejercicio 8 Switch */
+
 function mostrar()
 {
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
-
-}//FIN DE LA FUNCIÓN
+	let destinoIngresado = document.getElementById("txtIdDestino").value;
+	
+	switch(destinoIngresado){
+		case "Bariloche":
+		case "Ushuaia":
+		   alert("Hace frío");
+		break;
+		case "Mar del plata":
+		case "Cataratas":
+			alert("Hace calor");
+	}
+	
+}
