@@ -1,13 +1,20 @@
+/* Eva Colom
+Ejercicio 6 WHILE */  
+
+
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var numeroIngresado;
+	let numero;
+	let acum=0;
+	let i=0
+	let promedio;
 
-	contador=0;
-	acumulador=0;
+	while(i>5){
+		numero = parseInt(prompt("Ingrese un número"));
+		acum = acum + numero;
+		i++;
+	}
+
+	promedio = acum/5;
 	
-	
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/5;
-}//FIN DE LA FUNCIÓN
+}
