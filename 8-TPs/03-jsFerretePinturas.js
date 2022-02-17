@@ -19,6 +19,7 @@ function FahrenheitCentigrados ()
 
     mensajeAMostrar = fahrenheit + " grados fahrenheit " + " equivalen a " + centigrados + " grados centigrados";
 	
+    alert(mensajeAMostrar);
 }
 
 function CentigradosFahrenheit () 
@@ -32,6 +33,7 @@ function CentigradosFahrenheit ()
     fahrenheit = 9 * centigrados / 5 + 32;
 
     mensajeAMostrar = centigrados + " grados centigrados " + " equivalen a " + fahrenheit +  " grados fahrenheit ";
-
+    
+    alert(mensajeAMostrar);
     
 }
