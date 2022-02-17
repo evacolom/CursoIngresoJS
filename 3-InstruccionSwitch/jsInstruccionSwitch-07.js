@@ -6,21 +6,22 @@ Eva Colom */
 function mostrar()
 {
 	let destinoIngresado = document.getElementById("txtIdDestino").value;
+	let mensaje;
 	
 	switch(destinoIngresado){
 		case "Bariloche":
-		    alert("Es al oeste");
-		break;
+		    mensaje = "Es al oeste";
+			break;
 		case "Cataratas":	 
-			alert("Es al norte");
-		break;
+			mensaje = "Es al norte";
+			break;
 		case "Mar del plata":
-			alert("Es al sudeste");
-		break;
+			mensaje = "Es al este";
+			break;
 		case "Ushuaia":
-			alert("Es al sur");
-			
-			
+			mensaje = "Es al sur";
+			break;
 		}
+		alert(mensaje);
 
 }
