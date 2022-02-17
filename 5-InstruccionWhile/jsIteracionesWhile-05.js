@@ -1,12 +1,16 @@
-/*
+/* Eva Colom
+Ejercicio 5 WHILE
 Al presionar el botón pedir un sexo
 'f' para femenino, 'm' para masculino.*/
 function mostrar()
 {
-	var sexoIngresado;
+	let sexoIngresado;
+
 	sexoIngresado = prompt("ingrese f ó m .");
+		
+	while(sexoIngresado != "f" && "m"){
+		sexoIngresado = prompt("Ingrese nuevamente");
+	}
 
-
-
-	txtIdSexo.value=sexoIngresado;
-}//FIN DE LA FUNCIÓN
+	document.getElementById("txtIdSexo").value = sexoIngresado;
+}
