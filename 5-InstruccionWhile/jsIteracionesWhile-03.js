@@ -6,11 +6,12 @@ function mostrar()
 	let claveIngresada;
 	claveIngresada = prompt("ingrese el número clave.");
 
-	while(claveIngresada = "utn750"){
-		alert("Sesión iniciada");
-	}
-	if(claveIngresada != "utn750"){
+	while(! (claveIngresada == "utn750")){
 		claveIngresada = prompt("Ingrese su clave nuevamente");
+	}
+	if(claveIngresada == "utn750"){
+		alert("Sesión iniciada");
+
 	}
 	
 }
