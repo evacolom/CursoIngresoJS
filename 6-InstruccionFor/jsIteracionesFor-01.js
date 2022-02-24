@@ -1,3 +1,7 @@
+/* Eva Colom
+Ejercicio 1 FOR
+ENTREGADO */ 
+
 function mostrar()
 {
 	let i;
