@@ -1,8 +1,17 @@
+/* Eva Colom
+Ejercicio 3 FOR */
+
 function mostrar()
-{
+{ 
+	let i;
+	let repeticiones = parseInt(prompt("ingrese el número de repeticiones"));
+	
+	for(i=1; repeticiones >= i; i++){
 
-	var repetciones = prompt("ingrese el número de repeticiones");
-	alert("ok");
+		console.log("Hola UTN FRA");
 
 
-}//FIN DE LA FUNCIÓN
+	}
+
+
+}
