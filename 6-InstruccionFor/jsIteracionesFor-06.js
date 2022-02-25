@@ -1,5 +1,6 @@
 /* Eva Colom
-Ejercicio 6 FOR */
+Ejercicio 6 FOR a
+ENTREGADA */
 
 function mostrar()
 {

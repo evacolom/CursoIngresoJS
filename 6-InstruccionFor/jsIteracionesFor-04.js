@@ -1,3 +1,5 @@
+/* entregado */
+
 function mostrar()
 {
 	let i;
